@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace OOP3
+{
+    class KonutKrediManager : IKrediManager
+    {
+        public void Hesapla()
+        {
+            Console.WriteLine("Konut Kredisi Ödeme Planı Hesaplandı");
+        }
+
+        // IKrediManager'e sağ tıklayıp, implemente ettik.
+    }
+}
